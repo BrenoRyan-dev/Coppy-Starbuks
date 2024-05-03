@@ -1,0 +1,158 @@
+@media screen (max-width: 480px) {
+  body {
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+
+  /* Cabeçalho */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .conteudo-esquerda {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo-topo {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .nav-top {
+    display: none; /* Esconda o menu em dispositivos móveis */
+  }
+
+  .conteudo-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-text-top {
+    width: 80px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .textos-procurar {
+    font-weight: 700;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .pesquisa-procurar {
+    padding: 15px;
+  }
+
+  .botao-01,
+  .botao-02 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Estilos para o conteúdo principal */
+  main {
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+  }
+
+  /* Estilos para seções individuais (style-width) */
+  .style-width {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #d4e9e2;
+  }
+
+  /* Botões */
+  .botao-main {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  /* Imagens */
+  .img-tamanho {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Rodapé */
+  .rodape {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Estilos para o menu de rodapé */
+  .nav-rodape ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-politica {
+    margin: 10px 0;
+  }
+} /* Aumente o tamanho da fonte para d}{ispositivos móveis, se necessário */
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+  }
+
+  .conteudo-esquerda {
+    width: auto;
+  }
+
+  .conteudo-direita {
+    width: auto;
+    margin-left: auto;
+  }
+
+  .nav-top-ul {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .pesquisa-procurar {
+    display: none;
+  }
+
+  .botao-01,
+  .botao-02 {
+    display: inline-block;
+  }
+
+  .img-text-top {
+    display: block;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  .main {
+    padding: 0 20px;
+  }
+
+  .style-width {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

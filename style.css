@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+  width: 100%;
+  height: 110px;
+  background: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.conteudo-esquerda {
+  display: flex;
+  width: 45%;
+  align-items: baseline;
+  float: left;
+}
+.logo-topo {
+  width: 51px;
+  height: 51px;
+  margin: 25px 0px 0px 40px;
+}
+.nav-top-ul {
+  display: flex;
+  list-style: none;
+  margin-left: 40px;
+}
+.nav-top-ul a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.nav-top a:hover {
+  color: green;
+}
+
+.conteudo-direita {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+}
+.img-text-top {
+  margin-top: 40px;
+  width: 120px;
+  height: 47px;
+}
+.iconi-mapa-top {
+  width: 20px;
+  height: 20px;
+}
+.textos-prorcurar {
+  font-weight: 700;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+.pesquisa-procurar {
+  padding: 15px;
+}
+.botao-01 {
+  background: none;
+  border-width: 1px;
+  border-radius: 50px;
+  border-style: solid;
+  box-shadow: none;
+  font-family: "SoDo Sans";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 4px 11px;
+  transition: all 0.2s ease;
+  margin-right: 5px;
+}
+.botao-02 {
+  background: black;
+  color: white;
+  border-width: 1px;
+  border-radius: 50px;
+  border-style: solid;
+  box-shadow: none;
+  font-family: "SoDo Sans";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 4px 11px;
+  transition: all 0.2s ease;
+  margin-left: 5px;
+}
+.botao-01:hover {
+  border-width: 1px;
+  border-radius: 40px;
+  border-style: solid;
+  box-shadow: none;
+  font-family: "SoDo Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+  padding: 2px 8px;
+  transition: all 0.2s ease;
+  margin-left: 5px;
+}
+.botao-02:hover {
+  background: black;
+  color: white;
+  border-width: 1px;
+  border-radius: 40px;
+  border-style: solid;
+  box-shadow: none;
+  font-family: "SoDo Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+  padding: 2px 8px;
+  transition: all 0.2s ease;
+  margin-left: 5px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+  justify-content: center;
+  justify-items: center;
+}
+.img-main {
+}
+.style-width {
+  display: flex;
+  width: 1334px;
+  height: auto;
+  background: #d4e9e2;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 100px;
+  font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.cont-01-text {
+  width: 881px;
+  padding: 7.5px;
+  font-size: 1.2em;
+  margin-left: 236px;
+}
+.botao-main {
+  display: flexbox;
+  background: none;
+  border-width: 1px;
+  border-radius: 50px;
+  border-style: solid;
+  box-shadow: none;
+  font-size: 1em;
+  font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  width: auto;
+  height: auto;
+  padding: 7px 16px;
+  margin-top: 10px;
+}
+.botao-main:hover {
+  background: #97e4ca;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
+  padding: 7px 15px;
+}
+.img-tamanho {
+  width: 665px;
+  height: 420px;
+}
+.conteudo-tex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1.2em;
+  width: 665px;
+  margin: 0px;
+  padding: 0px;
+}
+.rodape {
+  display: flex;
+  width: auto;
+  border-right: none;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  color: rgba(0, 0, 0, 0.56);
+  font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  justify-content: center;
+}
+.rodape ul {
+  list-style: none;
+  width: 180px;
+}
+.rodape a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1em;
+}
+.rodape li {
+  padding: 10px 0px;
+}
+.Negrito {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: black;
+}
+.rodape a:hover {
+  color: black;
+}
+.nav-rodape ul {
+  display: flex;
+  padding: 10px;
+}
+.nav-rodape li {
+  padding: 5px;
+}
+.text-politica {
+  display: flex;
+  gap: 5px;
+  border-left: rgba(0, 0, 0, 0.466);
+  margin-bottom: 20px;
+}
+.text-politica a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.56);
+  font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text-politica a:hover {
+  color: black;
+}
